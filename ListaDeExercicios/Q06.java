@@ -33,15 +33,14 @@ public class Q06 {
         arvore1.idadeMaxima = idadeMaxima;
         arvore1.tamanhoArvore = tamanhoArvore;
 
-        System.out.println("Nome da árvore: " + arvore1.nome + "\nIdade da árvore: " + arvore1.idade
+        System.out.println("\nNome da árvore: " + arvore1.nome + "\nIdade da árvore: " + arvore1.idade
                 + "\nIdade máxima da árvore: " + arvore1.idadeMaxima + "\nTamanho da árvore: "
-                + arvore1.tamanhoArvore);
+                + arvore1.tamanhoArvore + "\n");
 
         arvore1.envelhecer();
 
-        System.out.println("Nome da árvore: " + arvore1.nome + "\nIdade da árvore: " + arvore1.idade
-                + "\nIdade máxima da árvore: " + arvore1.idadeMaxima + "\nTamanho da árvore: "
-                + arvore1.tamanhoArvore);
+        System.out.println(arvore1.nome + " envelheceu e agora tem " + arvore1.idade + " anos e "
+                + arvore1.tamanhoArvore + " metros de altura.");
 
         sc.close();
     }
