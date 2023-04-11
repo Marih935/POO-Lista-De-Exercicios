@@ -6,21 +6,8 @@ public class Q08 {
             int idade;
             String sexo;
 
-            //métodos get e set encapsulados
-            public String getNome() {
-                return nome;
-            }
-
-            public void setNome(String nome) {
+            void getNome(String nome){
                 this.nome = nome;
-            }
-
-            public int getIdade() {
-                return idade;
-            }
-
-            public void setIdade(int idade) {
-                this.idade = idade;
             }
         }
 
